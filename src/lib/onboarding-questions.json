@@ -1,0 +1,277 @@
+[
+  {
+    "step": 1,
+    "fields": [
+      {
+        "name": "name",
+        "label": "Full Name",
+        "type": "text",
+        "placeholder": "Enter your full name",
+        "required": true
+      },
+      {
+        "name": "age",
+        "label": "Age",
+        "type": "number",
+        "placeholder": "Enter your age",
+        "required": true,
+        "inline": true
+      },
+      {
+        "name": "gender",
+        "label": "Gender",
+        "type": "select",
+        "placeholder": "Select your gender",
+        "required": true,
+        "options": ["Male", "Female"],
+        "inline": true
+      },
+      {
+        "name": "bio",
+        "label": "Bio",
+        "type": "textarea",
+        "placeholder": "Tell us about yourself",
+        "required": false
+      }
+    ]
+  },
+  {
+    "step": 2,
+    "fields": [
+      {
+        "name": "languageEnglish",
+        "label": "English",
+        "type": "checkbox",
+        "required": false
+      },
+      {
+        "name": "languageMalay",
+        "label": "Malay",
+        "type": "checkbox",
+        "required": false
+      },
+      {
+        "name": "languageMandarin",
+        "label": "Mandarin",
+        "type": "checkbox",
+        "required": false
+      },
+      {
+        "name": "languageTamil",
+        "label": "Tamil",
+        "type": "checkbox",
+        "required": false
+      },
+      {
+        "name": "drivingLicense",
+        "label": "Driving License Type",
+        "type": "select",
+        "placeholder": "Select license type",
+        "required": true,
+        "options": ["3A", "3"]
+      },
+      {
+        "name": "teachingExperience",
+        "label": "Years of Teaching Experience",
+        "type": "number",
+        "placeholder": "2 years",
+        "required": true
+      }
+    ]
+  },
+  {
+    "step": 3,
+    "fields": [
+      {
+        "name": "carInfo",
+        "label": "Car Brand and Model",
+        "type": "textarea",
+        "placeholder": "Toyota Corolla",
+        "required": true
+      }
+    ]
+  },
+  {
+    "step": 4,
+    "fields": [
+      {
+        "name": "lessonLocation",
+        "label": "Lesson Location",
+        "type": "textarea",
+        "placeholder": "205 Ubi Ave 4",
+        "required": true
+      }
+    ]
+  },
+  {
+    "step": 5,
+    "fields": [
+      {
+        "name": "availabilityMonday",
+        "label": "Monday",
+        "type": "checkbox",
+        "required": false
+      },
+      {
+        "name": "availabilityMondayStart",
+        "label": "Monday Start Time",
+        "type": "time",
+        "placeholder": "Start time",
+        "required": false
+      },
+      {
+        "name": "availabilityMondayEnd",
+        "label": "Monday End Time",
+        "type": "time",
+        "placeholder": "End time",
+        "required": false
+      },
+      {
+        "name": "availabilityTuesday",
+        "label": "Tuesday",
+        "type": "checkbox",
+        "required": false
+      },
+      {
+        "name": "availabilityTuesdayStart",
+        "label": "Tuesday Start Time",
+        "type": "time",
+        "placeholder": "Start time",
+        "required": false
+      },
+      {
+        "name": "availabilityTuesdayEnd",
+        "label": "Tuesday End Time",
+        "type": "time",
+        "placeholder": "End time",
+        "required": false
+      },
+      {
+        "name": "availabilityWednesday",
+        "label": "Wednesday",
+        "type": "checkbox",
+        "required": false
+      },
+      {
+        "name": "availabilityWednesdayStart",
+        "label": "Wednesday Start Time",
+        "type": "time",
+        "placeholder": "Start time",
+        "required": false
+      },
+      {
+        "name": "availabilityWednesdayEnd",
+        "label": "Wednesday End Time",
+        "type": "time",
+        "placeholder": "End time",
+        "required": false
+      },
+      {
+        "name": "availabilityThursday",
+        "label": "Thursday",
+        "type": "checkbox",
+        "required": false
+      },
+      {
+        "name": "availabilityThursdayStart",
+        "label": "Thursday Start Time",
+        "type": "time",
+        "placeholder": "Start time",
+        "required": false
+      },
+      {
+        "name": "availabilityThursdayEnd",
+        "label": "Thursday End Time",
+        "type": "time",
+        "placeholder": "End time",
+        "required": false
+      },
+      {
+        "name": "availabilityFriday",
+        "label": "Friday",
+        "type": "checkbox",
+        "required": false
+      },
+      {
+        "name": "availabilityFridayStart",
+        "label": "Friday Start Time",
+        "type": "time",
+        "placeholder": "Start time",
+        "required": false
+      },
+      {
+        "name": "availabilityFridayEnd",
+        "label": "Friday End Time",
+        "type": "time",
+        "placeholder": "End time",
+        "required": false
+      },
+      {
+        "name": "availabilitySaturday",
+        "label": "Saturday",
+        "type": "checkbox",
+        "required": false
+      },
+      {
+        "name": "availabilitySaturdayStart",
+        "label": "Saturday Start Time",
+        "type": "time",
+        "placeholder": "Start time",
+        "required": false
+      },
+      {
+        "name": "availabilitySaturdayEnd",
+        "label": "Saturday End Time",
+        "type": "time",
+        "placeholder": "End time",
+        "required": false
+      },
+      {
+        "name": "availabilitySunday",
+        "label": "Sunday",
+        "type": "checkbox",
+        "required": false
+      },
+      {
+        "name": "availabilitySundayStart",
+        "label": "Sunday Start Time",
+        "type": "time",
+        "placeholder": "Start time",
+        "required": false
+      },
+      {
+        "name": "availabilitySundayEnd",
+        "label": "Sunday End Time",
+        "type": "time",
+        "placeholder": "End time",
+        "required": false
+      }
+    ]
+  },
+  {
+    "step": 6,
+    "fields": [
+      {
+        "name": "registrationFee",
+        "label": "Registration Fee",
+        "type": "usd",
+        "placeholder": "0.00",
+        "required": true
+      },
+      {
+        "name": "weekdayPricePerHour",
+        "label": "Price Per Hour (Weekday)",
+        "type": "usd",
+        "placeholder": "0.00",
+        "required": true
+      },
+      {
+        "name": "weekendpricePerHour",
+        "label": "Price Per Hour (Weekend/PH)",
+        "type": "usd",
+        "placeholder": "0.00",
+        "required": true
+      }
+    ]
+  }
+]

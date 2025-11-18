@@ -1,0 +1,38 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+  // uncomment next line if you use Prisma <5.10
+  // directUrl = env("DATABASE_URL_UNPOOLED")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+enum Gender {
+  Male
+  Female
+}
+
+enum DrivingLicense {
+  ThreeA @map("3A")
+  Three  @map("3")
+}
+
+model Instructor {
+  id                String   @id @default(uuid())
+  name              String
+  age               Int
+  gender            Gender
+  bio               String?
+  languages         Json     // JSONB array: ["English", "Malay", "Mandarin", "Tamil"]
+  drivingLicense    DrivingLicense
+  teachingExperience Int
+  carInfo           String
+  lessonLocation    String
+  availability      Json     // JSONB object: { "monday": { "available": boolean, "start": string | null, "end": string | null }, ... }
+  pricing           Json     // JSONB object: { "registrationFee": number, "weekdayPricePerHour": number, "weekendPricePerHour": number }
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @updatedAt
+}
+
